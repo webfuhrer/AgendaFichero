@@ -51,6 +51,7 @@ public class AccesoFichero {
                c.setNombre(nombre);
                c.setTelefono(telefono);
                lista.add(c);
+               linea=br.readLine();
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(AccesoFichero.class.getName()).log(Level.SEVERE, null, ex);
